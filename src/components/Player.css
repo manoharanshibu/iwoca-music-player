@@ -1,0 +1,62 @@
+.songlists {  
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  height: 100%;
+  margin-top: 40px;
+  width: 80%;
+}
+
+.song-list-item {
+  background-color: lightgrey;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.selected-song:hover{
+  background-color: #d3d4e0;
+  border-radius: 5px;
+}
+
+.title-text {
+  display: flex;
+  font-size: 20px;
+  color: rgb(70, 121, 145);
+  font-weight: bold;
+  line-height: 150%;
+  padding-left: 8px;
+  padding-bottom: 6px;
+}
+
+.subtitle-text {
+  display: flex;
+  flex-direction: row;
+  padding-left: 8px; 
+}
+
+.artist-text {
+  display: flex;
+  font-size: 12px;
+  width: 100%;
+  padding-bottom: 10px;  
+}
+
+.duration-text {
+  display: block;
+  text-align: right;
+  width: 90px;
+  padding-right: 20px;
+  padding-bottom: 10px;    
+}
+
+.playing{
+  color: darkgoldenrod;
+  display: inline-block;
+  padding-inline-end: 10px;
+}
+
+.paused{
+  color: lightcoral;
+  display: inline-block;
+  padding-inline-end: 10px;
+}
